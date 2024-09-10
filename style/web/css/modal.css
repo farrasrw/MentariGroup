@@ -1,0 +1,72 @@
+.button-login {
+    background-color: #0e8f36;
+    color: #fff !important; 
+    border: none;
+    margin: 15px 0px;
+    cursor: pointer;
+    padding: 10px 60px;
+    font-size: 16px;
+    display: inline-block;
+    outline: none;
+}
+.button-login:hover {
+    background-color: #6ab50e;
+}
+.modal-open {
+    overflow: hidden;
+}
+
+.modal .fade .modal-dialog-login {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+.modal .in .modal-dialog-login {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.modal-dialog-login {
+    position: relative;
+    width: auto;
+    margin: 2px;
+    z-index: 1100;
+}
+
+.modal-textbox {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    background-color: #fbfbfb;
+    border: 1px solid #e5e5e5;
+}
+.red{
+    color:red;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog-login {
+        width: 84%;
+        max-width: 830px;
+        margin: 30px auto;
+    }
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+    .modal-sm {
+        width: 300px;
+    }
+}
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 900px;
+    }
+}

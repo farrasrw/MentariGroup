@@ -1,0 +1,16 @@
+/*background_body {
+	background:#000000;
+	font-family: Helvetica;
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+
+.background_body {
+    background-color:#224d60;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,39 @@
+<!--find css-->
+#owlSlideProductTerbaru .item{margin: 0px 8px;}
+#owlSlideProductTerbaru .item img{display: block;width: 100%;height: 160px;}    
+#owlSlideProductTerbaru .owl-controls .owl-buttons div {position: absolute;}
+#owlSlideProductTerbaru .owl-controls .owl-buttons div{background: white;padding: 35px 5px;font-size: 17px;color:#0B5391;-webkit-border-radius: 0px; -moz-border-radius: 0px;border-radius: 0px; opacity: 1;}   
+#owlSlideProductTerbaru .owl-controls .owl-buttons .owl-next {right: -40px;top: 120px;border: 1px solid;border-left: 0px;border-color: #B1CFA0;padding-left: 0px;}
+#owlSlideProductTerbaru .owl-controls .owl-buttons .owl-prev {left: -40px;top: 120px;border: 1px solid;border-right: 0px;border-color: #B1CFA0;padding-right: 0px;}
+.widgetProductTerbaru {border: transparent;border: transparent;padding: 20px 24px;background-color: #FFF;margin-top: 0px;margin-bottom: 10px;}
+.product-detail{width: 100%;height: 358px;margin: 0 auto;position: relative;-webkit-transition: all 200ms ease;-moz-transition: all 200ms ease;-o-transition: all 200ms ease;-ms-transition: all 200ms ease;transition: all 200ms ease;}
+.product-preview{background-color: #fff;height: 100%;border: 1px solid #fff;}
+.product-detail:hover .product-preview{border-color: #ccc;}
+.product-image{text-align: center;position: relative;width: 100%;max-height: 195px;height: 195px;border: 1px solid #fff;}
+/*.product-image img{width: 195px;}*/
+.product-image img{height: 189px;}
+.product-detail:hover .product-image img{margin-left: 5px;}
+.product-title{margin: 3px 0 8px;color: #0B5391;font-weight:bold;padding: 0 8px;line-height: 16px;overflow: hidden;max-height: 47px;height: 36px;}
+.product-title a.product-title-text{color: #333;font-size: 13px;display: block;text-align: left;line-height: 18px;}
+.product-status,.options{text-align: left;padding: 0 8px;}
+span.sold{display: inline-block;color: #F43900;font-size: 11px;margin-top: 3px;margin-right: 3px;}
+span.new{display: inline-block;color: #282828;font-size: 11px;margin-top: 3px;margin-right: 3px;}
+span.cicilan-text{color: #009900;font-size: 11px;display: inline-block;margin-top: 3px;margin-right: 3px;}
+.product-price{padding: 0px 8px;text-align: left;}
+.product-price span.old-price-text{display: block;color: #bbb;font-size: 11px;text-decoration: line-through;}
+.product-price span.new-price-text{display: inline-block;color: #A80E15;font-size: 15px;font-weight: bold;margin-top: 3px;margin-right: 5px;}
+.product-preview .discount{border: 1px solid #A80E15;padding: 1px 10px;display: inline-block;text-align: center;font-size: 13px;}
+.product-preview .discount span{color: #A80E15;display: inline-block;font-weight: bold;}
+.product-preview .discount span b{font-weight: normal;font-size: 11px;}
+.single-product{width: 222.667px; height: 360px;}
+    
+/* #Media Queries
+================================================== */
+@media only screen and (max-device-width: 992px){
+    .product-detail {width: 100%;height: 358px;margin: 0 auto;position: relative;-webkit-transition: all 200ms ease;-moz-transition: all 200ms ease;-o-transition: all 200ms ease;-ms-transition: all 200ms ease;transition: all 200ms ease;}
+    .product-price {padding: 0px 30px;text-align: left;}
+    .product-status, .options {text-align: left;padding: 0 30px;}
+    .single-product {width: 100%;height: 360px;}
+    .product-image img{width: 210px;}    
+    .product-title {margin: 40px 0px 8px;color: #0B5391;font-weight: bold;padding: 0 8px;line-height: 16px;overflow: hidden;max-height: 47px;font-size: 16px;height: 30px;}
+}

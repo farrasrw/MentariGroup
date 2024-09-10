@@ -1,0 +1,479 @@
+.status-container{
+    font-size: 13px;
+    color: #282828;
+}    
+.no-orders {
+    border: 1px dashed #0e8f36;
+    padding: 15px;
+    color: #0e8f36;
+    display: table;
+    width: 100%;
+}
+.data-container .tabs-header li a.tab-active {
+    background-color: #FFF;
+    border-top: medium none;
+    box-shadow: 0px 5px 0px 0px #0e8f36 inset;
+}
+.ordertotal {
+    font-size: 13px;
+    display: block;
+    font-weight: bold;
+    color: red;
+    margin-top: 5px;
+}
+    
+.text-field {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #FBFBFB;
+    border: 1px solid #DDD;
+    padding: 10px;
+    outline: medium none;
+    font-weight: normal !important;
+}
+.button-hijau {
+    display: inline-block;
+    background-color: #0e8f36;
+    padding: 10px 30.5px;
+    color: #FFF;
+    outline: medium none;
+    border: medium none;
+    text-align: center;
+}
+.button-hijau:hover {
+    background-color: #6ab50e;
+}
+.changePass, .changeEmail {
+    display: inline-block;
+    color: #0e8f36;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #0e8f36;
+    padding: 10px 20px;
+    opacity: 0.7;
+}
+</style>
+
+<!--new style-->
+<style>
+.jagapati-container {
+    font-size: 13px;
+    color: #282828;
+}
+ul.menu-tabs{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #ccc;
+    margin-right: -1px;
+}
+ul.menu-tabs li{
+    background-color: #fff;
+}
+ul.menu-tabs li:hover{
+    background-color: #F7F7F7;
+}
+ul.menu-tabs li a span{
+    vertical-align: top;
+    display: inline-block;
+}
+ul.menu-tabs li a .ic-kupon-20{
+    margin-top: 5px;
+}
+ul.menu-tabs li a{
+    display: block;
+    color: #282828;
+    padding: 10px 15px 10px 20px;
+}
+.data-container {
+    padding: 20px;
+    border:1px solid #ccc;
+    min-height: 450px;
+}
+.data-container .text-field{
+    margin-top: 0;
+}
+.data-container label{
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+ul.menu-tabs li.selected{
+    background-color: #fff;
+    border-right: none;
+}
+ul.menu-tabs li.selected a{
+    font-weight: bold;
+    color: #282828;
+    background-color: #fff;
+    margin-right: -1px;
+    -webkit-box-shadow: inset 7px 0px 0px 0px rgba(204,204,204,1), inset 0px -1px 0px 0px rgba(204,204,204,1), inset 0px 1px 0px 0px rgba(204,204,204,1);
+    -moz-box-shadow: inset 7px 0px 0px 0px rgba(204,204,204,1), inset 0px -1px 0px 0px rgba(204,204,204,1), inset 0px 1px 0px 0px rgba(204,204,204,1);
+    box-shadow: inset 7px 0px 0px 0px rgba(204,204,204,1), inset 0px -1px 0px 0px rgba(204,204,204,1), inset 0px 1px 0px 0px rgba(204,204,204,1);
+}
+ul.menu-tabs li.selected:last-child a{
+    -webkit-box-shadow: inset 7px 0px 0px 0px rgba(204,204,204,1), inset 0px 1px 0px 0px rgba(204,204,204,1);
+    -moz-box-shadow: inset 7px 0px 0px 0px rgba(204,204,204,1), inset 0px 1px 0px 0px rgba(204,204,204,1);
+    box-shadow: inset 7px 0px 0px 0px rgba(204,204,204,1), inset 0px 1px 0px 0px rgba(204,204,204,1);
+}
+ul.menu-tabs li.selected:first-child a{
+    -webkit-box-shadow: inset 7px 0px 0px 0px rgba(204,204,204,1), inset 0px -1px 0px 0px rgba(204,204,204,1);
+    -moz-box-shadow: inset 7px 0px 0px 0px rgba(204,204,204,1), inset 0px -1px 0px 0px rgba(204,204,204,1);
+    box-shadow: inset 7px 0px 0px 0px rgba(204,204,204,1), inset 0px -1px 0px 0px rgba(204,204,204,1);
+}
+.my-order .data-container{
+    border: none;
+    padding: 0;
+    color: #282828;
+}
+.data-container .tabs-header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;    
+}
+.data-container .tabs-header ul li{
+    display: inline-block;  
+    vertical-align: bottom;
+}
+.data-container .tabs-header ul li a{
+    display: inline-block;
+    background-color: #eee;
+    color: #282828;
+    border-bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #eee;
+    height: 100%;
+    padding: 15px 6px 16px 6px;
+    font-weight: bold;
+}
+.data-container .tabs-header ul li a:hover{
+    background-color: #ddd;
+}
+    
+.data-container .tabs-container{
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+    margin-top: -1px;
+    min-height: 400px;
+}
+.data-container .pagination{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    list-style: none;
+    text-align: center;
+}
+.data-container .pagination li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.data-container .pagination li a{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-align: center;
+    line-height: 32px;
+    color: #282828;
+}
+.data-container .pagination li a img{
+    width: 10px;
+    margin-top: -3px;
+}
+.activepage a {
+    background-color: #0078C7;
+    color: #fff !important;
+    font-weight: bold;
+    border: 1px solid #0078C7 !important;
+}
+.data-container .tabs-container .large-6{
+    margin-bottom: 0;
+}
+    
+<!--order detail -->
+.single-order .order-total{
+    background-color: #fff;
+    margin-top: 10px;
+    /*    height: 35px;*/
+    line-height: 1.3em;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px 0px;
+    font-size: 13px;
+}
+.single-order{
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    color: #333;
+    border: 1px solid #bbb;
+    border-top: 2px solid #333;
+}
+.order-detail{
+    padding: 15px;
+    font-size: 11px;
+    background-color: #eee;
+}
+.order-product-detail{
+    padding: 15px;
+    border-top: 1px solid #bbb;
+}
+.order-detail label,
+.order-product-detail label,
+.single-order-product-detail label{
+    font-weight: normal !important;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+    
+.ordernum{
+    margin-bottom: 15px;
+}
+.orderdate{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.ordertime{
+    display: block;
+    margin-top: 5px;
+}
+.order-product-title{
+    line-height: 16px;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+.order-product-title a:visited{
+    color: #282828;
+}
+.order-product-title a{
+    color: #282828;
+}
+.productsummary .button-green{
+    display: inline-block;
+    margin-left: 0;
+    font-weight: normal;
+    padding: 7px 20px;
+}
+.link-order-detail{
+    color: #0078c7;    
+}
+.order-product-qty{
+    display: block;
+    font-size: 11px;
+    line-height: 20px;
+}
+.orderitemstatus{
+    display: block;
+    margin-top: 5px;
+}
+.otherproduct{
+    display: inline-block;
+    margin-right: 10px;
+}
+.order-confirmation{
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    margin-top: 10px;
+}
+.order-confirmation ul{
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    list-style: none;
+}
+.order-confirmation ul li{
+    display: inline-block;
+    font-size: 11px;
+    vertical-align: middle;
+    padding: 0px 5px;
+    margin: 0;
+}
+.order-confirmation ul li:first-child{
+    width: 10%;
+    text-align: center;
+}
+.order-confirmation ul li:nth-child(2){
+    padding: 0px 10px;
+    width: 60%;
+}
+.order-confirmation ul li:last-child{
+    text-align: right;
+    width: 30%;
+}
+.order-confirmation ul li p{
+    font-size: 11px;
+    margin: 0;
+    line-height: 16px;
+}
+.order-confirmation a{
+    font-size: 11px;
+    color: #0078c7;
+    display: inline-block;
+    margin-top: 5px;
+}
+.order-detail-container .single-order-product-detail:last-child{
+    margin-bottom: 0;
+}
+.single-order-product-detail{
+    padding: 15px 20px;
+    border: 1px solid #bbb;
+    border-top: 2px solid #333;
+    margin-bottom: 20px;
+}
+.etd-detail{
+    font-weight: bold;
+    font-size: 14px;
+}
+.single-order-product-detail .productsummary{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+.single-order-product-detail .productsummary li{
+    display: inline-block;
+    font-size: 11px;
+    vertical-align: middle;
+    margin: 0;
+}
+.single-order-product-detail .productsummary li:first-child{
+    width: 12%;
+    text-align: left;
+}
+.single-order-product-detail .productsummary li:nth-child(2){
+    width: 68%;
+    padding-left: 10px;
+}
+.single-order-product-detail .productsummary li:last-child{
+    width: 20%;
+    text-align: right;
+}
+.single-order-product-detail .productsummary .productname{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 16px;
+}
+.single-order-product-detail .productsummary .productname a:visited,
+.single-order-product-detail .productsummary .productname a{
+    color: #282828;
+}
+.single-order-product-detail .productsummary .productqty{
+    display: block;
+    margin-bottom: 5px;
+}
+.single-order-product-detail .productsummary #defining-attributes-container{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.single-order-product-detail .productsummary .defining-attributes-title{
+    width: auto;
+}
+.single-order-product-detail .productsummary .item-detail-defining-attributes{
+    line-height: 16px;
+}
+.single-order-product-detail .productsummary .productprice{
+    display: inline-block;
+    font-size: 14px;
+    color: #DD3300;
+}
+.single-order-product-detail .productsummary img{
+    width: 64px;
+}
+    
+.order-view-detail{
+    text-align: right;
+    padding: 0px 15px 15px 0px;
+}
+.returlink{
+    color: #0078C7;
+    float: right;
+}
+.orderstat{
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+}
+
+.single-order-product .button-green {
+    display: inline-block;
+    margin-left: 0px;
+    font-weight: normal;
+    padding: 2px 12px;
+}
+.button-green {
+    padding: 10px 40px;
+    background-color: #45B433;
+    border: medium none;
+    outline: medium none;
+    color: #FFF;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.single-order-product .productimage img{
+    width: 64px;
+}
+.single-order-product .productimage{
+    text-align: center;
+}
+    
+.red{
+    color:red;
+}
+.single-address{
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    min-height: 250px;
+    margin: 0px 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.single-address span{
+    line-height: 18px;
+    display: inline-block;
+}
+.single-address a{
+    display: inline-block;
+    margin-right: 15px;
+    color: #0078c7;
+    text-decoration: underline;
+}
+.default-address{
+    background-color: #eee;
+    border: 5px solid #e5e5e5 !important;
+    position: relative;
+}
+.default-address .ic-tick{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.default-address .address-label{
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+.single-address span label{
+    display: inline-block;
+}
+.single-address span span{
+    margin-bottom: 0;
+}
+.my-address .button-address{
+    padding: 0px 15px;
+}

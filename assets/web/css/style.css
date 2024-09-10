@@ -1,0 +1,639 @@
+
+            @font-face {
+                font-family:"telex";
+                src: url(../font/Telex-Regular.ttf);
+            }
+
+			.borderBtm{border-bottom: 1px solid #EFEFEF;}
+            .mainContainer{ max-width: 830px }
+            .bodyContainer{ max-width: 830px; margin-top:61px }
+            .form-control{
+                -moz-border-radius: 2px;
+                -webkit-border-radius: 2px;
+                -o-border-radius: 2px;
+                -ms-border-radius: 2px;
+                border-radius: 2px;
+                -moz-box-shadow:none;
+                -webkit-box-shadow:none;
+                -o-box-shadow:none;
+                -ms-box-shadow:none;
+                box-shadow:none;
+                height: 30px;
+                padding: 3px 12px
+            }
+            .form-control:focus {
+                border-color: #66AFE9;
+                outline: 0px none;
+                -moz-box-shadow:none;
+                -webkit-box-shadow:none;
+                -o-box-shadow:none;
+                -ms-box-shadow:none;
+                box-shadow:none;
+            }
+
+            a:focus{outline: none;}
+            .font12{font-size: 12px}
+            .font125{font-size: 12.5px}
+            .font13{font-size: 12px}
+            .font14{font-size: 14px}
+            .font15{font-size: 15px}
+            .font16{font-size: 16px}
+            .font18{font-size: 18px}
+            .font19{font-size: 19px}
+            .font20{font-size: 20px}
+            .fontBold{ font-weight: bold }
+			.textlike{color: #585881}
+            body{   
+                    background-color: #09465f; 
+                    font-family: "telex" ;
+                    -moz-text-shadow: 0 0 0.3px rgba(0, 0, 0, 0.64);
+                    -xs-text-shadow: 0 0 0.3px rgba(0, 0, 0, 0.64);
+                    -o-text-shadow: 0 0 0.3px rgba(0, 0, 0, 0.64);
+                    text-shadow: 0 0 0.3px rgba(0, 0, 0, 0.64);
+                    color: black;
+            }
+           
+            .noShadow{
+                    -moz-text-shadow: none;
+                    -xs-text-shadow: none;
+                    -o-text-shadow: none;
+                    text-shadow: none;
+            }
+            hr{
+                margin-top: 0px;
+                margin-bottom: 10px;
+                border-color: #D5D0D0;
+            }
+            .margin_0{ margin:0px }
+            .padding_0{padding:0px}
+            
+            .text-ungu{
+                color:#353551;
+            }
+            .text-orange{
+                color: #c2971e;
+            }
+            .text-link{
+                color:#1a1ac2
+            }
+            .header{ 
+                height: 57px;
+                background-color: white;
+                color:black;
+                width: 100%;
+                position: fixed;
+                top: 0px;
+                z-index: 10;
+                border-bottom: 2px solid rgb(38, 121, 233);
+                box-shadow: 0 -1px 14px #313CB3;
+            }
+            .header .headerConten{
+                padding: 0 5px;
+            }
+            .header .headerConten .headLogo{
+                text-align: left;
+            }
+            .header .headerConten .menuMobile{
+                padding-top: 14px;
+                font-size: 24px;
+            }
+            
+           
+            
+            .header .menuHead .contenMenuHead .itemMenuHead .notiftext{
+                font-size:14px;
+                position: relative;
+                top: -10px;
+                
+            } 
+            .header .menuHead .contenMenuHead .itemMenuHead{
+                position: relative;
+            }
+            .sidebarLeft{
+                padding: 3px;
+                background-color: #f9f8f8;
+                border: 1px solid #ebe6e6;
+                max-width: 209px;;
+                position: fixed;
+            }
+            .sidebarRight{
+                padding: 3px;
+                background-color: #f9f8f8;
+                border: 1px solid #ebe6e6;
+                max-width: 251px;;
+                position: fixed;
+            }
+            .mainBody{
+            }
+            .sideMenu{ list-style: none; padding: 0px  }
+            .sideMenu li{
+                display: block;
+            }
+            .sideMenu >li>a{ 
+                display: block;
+                background-color: #2679e9;
+                color: white;
+                padding: 7px;
+                text-align: center;
+                font-size: 18px;
+            }
+            
+            .sideMenu >li> ul{
+                list-style: none;
+                padding: 0px;
+            }
+            
+            .sideMenu >li> ul>li{
+                display: block;
+                margin-bottom: 14px
+            }
+            
+            
+            
+            #collapseOne{
+                
+            }
+            .caretdown{
+                height:22px; 
+                width:44px ;
+                background-image: url(../images/caretdown.png);
+                background-repeat: no-repeat;
+                background-position: top center;
+                background-color: #2679E9;
+                margin: 0px auto;
+            }
+            
+            .subGroupDiv .icon i{
+                font-size: 26px;
+                padding-top: 2px
+            }
+            .subGroupDiv .titleMenu {
+                line-height: 1.2;
+                font-size: 16px
+            }
+            .subGroupDiv .titleMenu small{
+                
+                font-weight: normal;
+                color: #5f5656;
+            }
+            .borderBootom{
+                border-bottom: 5px solid #1463e6;
+            }
+            .mainBody .contenBg{
+                background-color: #fbfbfb;
+                margin-bottom: 10px;
+                border: 1px solid #ced4e0;
+                padding: 10px;
+            }
+         .displayList{
+                padding-bottom: 10px;
+			 	margin-bottom: 5px;
+                position: relative;
+            }
+             .displayList .listImage{
+                float:left; width:50px;padding-top:5px
+            }
+             .displayList .listDesc{
+                display: table;
+                padding-left: 10px;
+            }
+
+            .mainBody .formStatus{
+                background-color: #ffffff;
+                margin-bottom: 10px
+            }
+            .mainBody .btnAddFoto{
+                border: 1px dashed #9392D8;
+                background-color: #DADAEF;
+                color: white;
+                display: table;
+                margin-right: 3px;
+            }
+            .mainBody .btnAddFoto span{
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center
+            }
+            .mainBody .uploadPhotoItem{
+                background-color: #FCFCFC;
+                border: 1px solid #EAE7E7;
+                color: #FFF;
+                overflow: hidden;  
+                margin-right:3px;
+                margin-bottom:3px;
+                display: table;
+                
+            }
+            .mainBody .uploadPhotoItem .imgitem{
+                position: relative;
+                right: 50%;
+            }
+            .mainBody .uploadPhotoItem span{
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+
+            
+            .mainBody .formStatus .formHeader{
+                padding: 10px;
+                
+            }
+            .mainBody .formStatus .formBody{
+                padding: 0px;
+            }
+            .mainBody .formStatus .formBody textarea{
+                padding: 0px 15px;
+                border: 0px;
+                box-shadow: none;
+                resize: none;
+                color:black;
+            }
+            
+            .mainBody .formStatus .formFooter{
+                background-color: #f9f8f8;
+                height: 40px;
+                border:1px solid #eeebeb;
+                padding: 2px;
+            }
+            
+            .mainBody  .navTimeLine{
+                background-color: #f9f8f8;
+                padding: 10px 20px;
+                margin:0px 0px 10px 0px;
+            }
+            .mainBody  .navTimeLine span{
+                margin:0px 10px;
+            }
+            .mainBody  .navTimeLine .titleNav{
+                font-size: 15px
+            }
+            .mainBody .mainTimeLine .itemTimeLine{
+                background-color: #fbfbfb;
+                margin-bottom: 10px;
+                margin-bottom: 0px;
+                border: 1px solid #ced4e0;
+                border-bottom: 5px solid #DEDABB;
+                border-bottom: 5px solid #DBDCDE;
+				
+
+            }
+            .mainBody .mainTimeLine .itemTimeLine .headTimeLine{
+                padding: 7px 10px 7px;
+       
+                border-bottom:1px dashed  #BED6E9;
+
+            }
+            .mainBody .mainTimeLine .itemTimeLine .headTimeLine .profileInfo p{
+                margin: 0px;
+				line-height: 1.3
+            }
+            .mainBody .mainTimeLine .itemTimeLine .bodyTimeLine{
+                padding: 15px 10px 0px ;
+            }
+			.mainBody .mainTimeLine .itemTimeLine .bodyTimeLine .likeBtn{
+				margin-top: 10px;
+			}
+            
+            .mainBody .mainTimeLine .itemTimeLine .bodyTimeLine .timeLineImage{
+                max-height: 200px;
+                overflow-y: hidden;
+                margin-bottom: 10px;
+            }
+            
+            
+            .mainBody .mainTimeLine .itemTimeLine .footerTimeLine .whoLike{
+                background-color: white;
+                border: 1px solid #d5d0c8;
+                border-top: 1px solid #E2E9F9;
+                border-left:3px solid #005DFF;
+                border-right: 0px;
+                height: 43px;
+            }
+            
+            .mainBody .mainTimeLine .itemTimeLine .footerTimeLine .whoLike .whoLikeText{
+               padding: 12px 0px;
+                color: #555A6C;
+                
+            }
+
+            .mainBody .mainTimeLine .itemTimeLine .footerTimeLine .rewords{
+                background-color: #FFF;
+                border-bottom: 1px solid #E1ED91;
+                height: 43px;
+                border-left: 3px solid #F3D702;;
+            }
+            
+            .rewordsIcon{
+                padding-top: 8px;
+                min-width: 36px;
+                padding-left: 5px;
+            }
+            .rewordsPhoto{padding-top: 5px}
+            .whoLikeIcon{
+                padding-top: 7px;
+                padding-left: 5px;
+                min-width: 36px;
+            }
+            .whoLikePhoto{padding-top: 5px;}
+
+            
+            .mainBody .mainTimeLine .itemTimeLine .footerTimeLine .rewords .rewordsText{
+                padding: 12px 0px;
+                color: #3D4451;
+            }
+            .mainBody .mainTimeLine .itemTimeLine .footerTimeLine .linkKomentar{
+                padding-top: 10px
+            }
+                        
+            .mainBody .mainTimeLine .itemTimeLine .headTimeLine .avatar{
+                width: 55px;
+                float: left;
+				padding-top:3px
+            }
+            .profileInfo{
+                display: table;
+                padding-left: 5px;
+            }
+            
+            .sidy__container {
+                position: relative;
+                overflow: visible;
+                height: auto;
+            }   
+            
+         
+         
+            
+        .heapder{
+            background-color: #4351EF;
+            color:white;
+        }    
+        .hepader .menuHead{
+            background-color: #6B77FC;
+            height: 56px;
+            text-align: center;
+        }
+            
+            .heapder .menuProfile .profileMention{
+                color:black
+            }
+            
+        .sidebarMobile{
+            background-color: #425FC6;
+            color:white;
+            width: 250px;
+            padding: 10px
+        }    
+        .sidebarMobile a{
+         color:white;
+        }
+        .sidebarMobile .menuSidebarMobile ul{
+            padding: 0px;
+            list-style: none;
+        }
+        .sidebarMobile .menuSidebarMobile ul li{
+            display: block;
+            border-bottom: 1px solid #3955B9;
+            border-top: 1px solid #5974D4;
+
+        }
+        .sidebarMobile .menuSidebarMobile ul li:first-child{ border-top: 0px}
+        .sidebarMobile .menuSidebarMobile ul li:last-child{ border-bottom: 0px}
+
+        .sidebarMobile .menuSidebarMobile ul li a{
+            display: table;
+            width: 100%;
+            height: 45px;
+            font-size: 16px;
+        }
+
+        .sidebarMobile .menuSidebarMobile ul li a span{
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+    /* Css profile */
+    
+        .profileHeader{
+            background-color: #fbfbfb;
+            margin-bottom: 10px;
+            border: 1px solid #ced4e0;
+        }
+        .profileHeader .imageHeader{
+            height: auto;
+
+            overflow-y: hidden;
+            background-color: blue;
+        }
+        .profileHeader .infoProfile{
+            height: 105px;
+        }
+        .profileHeader .infoProfile .imageAvatar{
+            width: 133px;
+            position: relative;
+            top: -50px;
+            background-color: red;
+        }
+        .profileHeader .infoProfile .profileDivision{
+            color: #48489B;
+        }
+
+        .profileHeader .infoProfile .profileJabatan{
+            color: #11116c;
+        }
+
+        .mainBody  .navProfile{
+            background-color: #f9f8f8;
+            padding: 10px 10px;
+            margin:0px 0px 10px;
+        }
+        .mainBody  .navProfile span{
+            margin:0px 10px;
+        }
+        .mainBody  .navProfile .titleNav{
+            font-size: 15px
+        }
+        
+    /* css profile About */
+        .mainBody .aboutConten{
+            background-color: #fbfbfb;
+            margin-bottom: 10px;
+            border: 1px solid #ced4e0;
+            border-bottom: 5px solid #1463e6;
+            padding: 10px;
+
+        }
+        .mainBody .aboutConten .aboutMe{
+            margin-bottom: 20px
+        }
+        .mainBody .aboutConten  .itemField{
+            margin-bottom: 10px;
+        }
+        .mainBody .aboutConten .titleAbout{
+            font-size: 16px;
+            color: #c2971e;
+        }
+
+    /*css Album Foto */
+  
+        .mainBody .albumPhoto{
+            background-color: #fbfbfb;
+            margin-bottom: 10px;
+            border: 1px solid #ced4e0;
+            border-bottom: 5px solid #1463e6;
+            padding: 10px;
+
+        }
+        .mainBody .albumPhoto .albumList{
+            margin-bottom: 20px
+        }
+        .mainBody .albumPhoto  .itemField{
+            margin-bottom: 10px;
+        }
+        .mainBody .albumPhoto .titleAlbum{
+            font-size: 16px;
+            color: #c2971e;
+        }
+
+    /* csss Photo List */
+
+        .mainBody .photoListConten{
+            background-color: #fbfbfb;
+            margin-bottom: 10px;
+            border: 1px solid #ced4e0;
+            border-bottom: 5px solid #1463e6;
+            padding: 10px;
+
+        }
+        .mainBody .photoListConten .photoList{
+            margin-bottom: 20px
+        }
+        .mainBody .photoListConten  .itemField{
+            margin-bottom: 10px;
+        }
+        .mainBody .photoListConten .titlePhoto{
+            font-size: 16px;
+            color: #c2971e;
+        }
+    /*css profile Follower */
+        .mainBody .profileFollower{
+            background-color: #fbfbfb;
+            margin-bottom: 10px;
+            border: 1px solid #ced4e0;
+            border-bottom: 5px solid #1463e6;
+            padding: 10px;
+
+        }
+        .mainBody .profileFollower .aboutMe{
+            margin-bottom: 20px
+        }
+        .mainBody .profileFollower  .itemField{
+            margin-bottom: 10px;
+        }
+        .mainBody .profileFollower .titleFollower{
+            font-size: 16px;
+            color: #c2971e;
+        }
+
+    /*easy modal */
+	.modals {
+	  position: relative;
+	  background: #FFF;
+	  padding: 0px;
+	  width:auto;
+	  max-width: 500px;
+	  margin: 20px auto;
+	}
+    .modals .modalHeader {
+        background: #F6F6F6 none repeat scroll 0% 0%;
+		border-bottom: 1px solid #CCC;
+		padding: 9px 10px;
+		font-size: 16px;
+    }
+    .modals .modalBody{
+        padding: 10px 20px;
+		display: inline-block;
+    }
+    .modals .modalFooter{
+        padding: 5px 10px;
+    }
+	/* FORM Comment List*/
+	.mainBody .listComment{
+		margin-bottom: 20px;
+	}
+	.mainBody .listComment .commentTitle{
+		background-color: #5396F0;
+		color: #FFF;
+		font-weight: bold;
+		padding: 10px;
+	}
+	 .mainBody .listComment .displayList{
+		background-color: #fbfbfb;
+		margin-bottom: 0px;
+		border: 1px solid #ced4e0;
+		border-bottom: 1px solid #1463e6;
+		padding: 10px;
+
+	}
+    
+
+  @media screen and (max-width: 829px) {
+            /*easy Modal */
+            .easyModal {
+               min-width: auto;
+                width:90%;
+               left: none
+            }
+        
+            .sidy__container {
+                overflow: hidden;
+                height: 100%;
+            }
+            body{
+                font-size: 12px;
+                -moz-text-shadow:none;
+                    -xs-text-shadow:none;
+                    -o-text-shadow:none;
+                    text-shadow:none;
+            }
+            .header .headerConten .headLogo{
+                text-align: right;
+            }
+            .mainTimeLine .itemTimeLine{
+                margin-left:10px;
+                margin-right:10px;
+            }
+            .mainBody .mainTimeLine .itemTimeLine .headTimeLine {
+                padding: 0px 5px 15px;
+            }
+            .mainBody .mainTimeLine .itemTimeLine .bodyTimeLine {
+                padding: 15px 5px 0px;
+            }
+            .avatarRow{
+                height: 30px;
+            }
+            .profileHeader .infoProfile .imageAvatar{
+                width: 80px;
+                top: -50px;
+            }
+            .profileHeader .infoProfile{
+                height: auto;
+            }
+            .profileHeader .infoProfile{
+                padding: 0 10px 10px
+            }
+
+        } 
+  @media screen and (min-width: 830px){
+      
+      .sidebarLeft{max-width: 235px;}
+  
+  }          
+  @media screen and (min-width: 1024px){ 
+    .mainContainer{ max-width: 1024px }
+    .bodyContainer{ max-width: 1024px; margin-top:61px }
+    .sidebarLeft{max-width: 209px;}
+
+  }          
